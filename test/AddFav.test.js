@@ -1,4 +1,5 @@
 // use the path of your model
+//creating addfAV testing
 const AddFav = require('../Models/AddFav');
 const mongoose = require('mongoose');
 const url = 'mongodb://127.0.0.1:27017/SharmaInt';

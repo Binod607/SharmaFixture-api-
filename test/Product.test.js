@@ -1,7 +1,7 @@
 // use the path of your model
 const productModle = require('../Models/productModle');
 const mongoose = require('mongoose');
-// use the new name of the database
+// use the new name of the databaseand it's testing
 const url = 'mongodb://127.0.0.1:27017/SharmaInt';
 beforeAll(async () => {
     await mongoose.connect(url, {
