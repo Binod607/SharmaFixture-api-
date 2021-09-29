@@ -1,4 +1,5 @@
 const multer = require('multer')
+ //creating user upload middleware
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
       cb(null, "./public/images");

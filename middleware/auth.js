@@ -1,6 +1,6 @@
 const jwt=require('jsonwebtoken');
 const User=require("../Models/User")
- 
+ //creating user auth middleware
 module.exports.varifyUser=function(req,res,next){
     try{
         const token=req.headers.authorization.split(" ")[1];
