@@ -1,4 +1,5 @@
 const mongoose=require('mongoose')
+//creating comment model
 const Comment=mongoose.model('Comment',{
     userid:{
         type:String,

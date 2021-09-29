@@ -1,4 +1,5 @@
 const mongoose=require('mongoose')
+//creating user model
 const User=mongoose.model('User',{
     name:{
         type:String,
