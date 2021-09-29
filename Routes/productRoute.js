@@ -4,6 +4,7 @@ const product = require('../models/productModle');
 const auth = require('../middleware/auth')
 const { check, validationResult } = require('express-validator');
 const upload = require('../middleware/upload')
+//creating user products routes
 const multer = require('multer')
 router.post('/product/insert', [
     check('area', 'area must be specified').not().isEmpty(),

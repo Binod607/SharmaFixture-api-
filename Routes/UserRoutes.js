@@ -9,7 +9,7 @@ const User = require('../Models/User')
 const multer = require('multer')
 const auth = require('../middleware/auth')
 
-
+//creating user user routes
 router.post('/insert',
     [
         check('name', "Name must be filled").not().isEmpty(),

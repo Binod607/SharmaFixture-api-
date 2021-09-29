@@ -3,7 +3,7 @@ const Comment = require('../Models/comment')
 const auth = require('../middleware/auth')
 const { check, validationResult } = require('express-validator');
 const router = require('./productRoute');
-
+//creating user comment routes
 router.post('/add/comment',
     auth.varifyUser,
     auth.varifyParticularUser,

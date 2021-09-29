@@ -4,7 +4,7 @@ const AddFav = require('../Models/AddFav');
 const auth = require("../middleware/auth")
 const { check, validationResult } = require('express-validator');
 const { json } = require('body-parser');
-
+//creating user addFAv routes
 router.post('/add/fav',
     [
         check('userId', "userId must be filled").not().isEmpty(),
