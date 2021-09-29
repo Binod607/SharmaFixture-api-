@@ -4,6 +4,7 @@ const cors=require('cors')
 const bodyParser = require('body-parser');
 const db=require('./Database/db')
 const path=require("path")
+//import all teh component
 const { static } = require('express');
 const Comment=require('./Routes/CommentRoute')
 const URouter=require('./Routes/UserRoutes')
